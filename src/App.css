@@ -72,8 +72,8 @@ input[type='text']:focus {
   border-color: #007bff;
 }
 
-button {
-  background-color: #007bff;
+.btn {
+  background-color: #5af16c;
   border: none;
   color: white;
   padding: 8px 14px;
@@ -81,10 +81,11 @@ button {
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.3s ease;
+  
 }
 
-button:hover {
-  background-color: #0056b3;
+.btn:hover, .btnsua:hover {
+  background-color: #12e520;
 }
 
 button + button {
@@ -125,4 +126,37 @@ li button {
 .line-through {
   text-decoration: line-through;
   color: #999;
+}
+.btnsua,.btn-them{
+background-color: #2bd13f;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 64px;
+  height: 32px;
+}
+.btnxoa{
+background-color: red;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 64px;
+  height: 32px;
+}
+
+
+
+
+.btn.active {
+  font-weight: bold;
+  background-color: #0a9e23;
+  color: white;
 }
